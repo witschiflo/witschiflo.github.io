@@ -121,7 +121,7 @@ body {
     filter: brightness(10%);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 800px) {
     .portfolio-items-wrapper {
         grid-template-columns: 1fr 1fr;
     }
