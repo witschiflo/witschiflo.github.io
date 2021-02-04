@@ -2,9 +2,148 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Florian Witschi</title>
+		<title>Florian Witschi</title>
+		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
     </head>
     <body>
-		<h1>Work in progress, Coming soon...</h1>
-    </body>
+		<div class="container">
+			<div class="nav-wrapper">
+				<div class="left-side">
+					<div class="brand">
+						<div>Florian Witschi</div>
+					</div>
+				</div>
+				<div class="right-side">
+					<div class="nav-link-wrapper active-nav-link">
+						<a href="index.html">Home</a>
+					</div>
+					<div class="nav-link-wrapper">
+						<a href="about.html">About</a>
+					</div>
+				</div>
+			</div>
+			<div class="content-wrapper">
+				<div class="portfolio-items-wrapper">
+					<div class="portfolio-item-wrapper">
+						<div class="portfolio-img-background" style="background-image:url(images/classroom.jpg)"></div>
+						<div class="img-text-wrapper">
+							<div class="subtitle">
+								I am currently studying computer science at the ZHAW School of Engineering.
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item-wrapper">
+						<div class="portfolio-img-background" style="background-image:url(images/switzerland_flag.jpg)"></div>
+						<div class="img-text-wrapper">
+							<div class="subtitle">
+								Most of my time is spent between Zurich and Lake Constance.
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item-wrapper">
+						<div class="portfolio-img-background" style="background-image:url(images/electronics.jpg)"></div>
+						<div class="img-text-wrapper">
+							<div class="subtitle">
+								Between 2014 and 2018 I completed an apprenticeship as an electronics technician (Elektroniker).
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item-wrapper">
+						<div class="portfolio-img-background" style="background-image:url(images/mountain.jpg)"></div>
+						<div class="img-text-wrapper">
+							<div class="subtitle">
+								I can hardly resist making a trip to the mountains.
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item-wrapper">
+						<div class="portfolio-img-background" style="background-image:url(images/code_screen.jpg)"></div>
+						<div class="img-text-wrapper">
+							<div class="subtitle">
+								My first programming language was C, but now I feel comfortable in Java as well.
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item-wrapper">
+						<div class="portfolio-img-background" style="background-image:url(images/idea.jpg)"></div>
+						<div class="img-text-wrapper">
+							<div class="subtitle">
+								I love to think out of the box and taking the unconventional way.
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item-wrapper">
+						<div class="portfolio-img-background" style="background-image:url(images/san_diego.jpg)"></div>
+						<div class="img-text-wrapper">
+							<div class="subtitle">
+								After my apprenticeship it took me to San Diego to learn the English language.
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item-wrapper">
+						<div class="portfolio-img-background" style="background-image:url(images/healthcare.jpg)"></div>
+						<div class="img-text-wrapper">
+							<div class="subtitle">
+								In the summer of 2020, I received an insight into the medical device industry.
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item-wrapper">
+						<div class="portfolio-img-background" style="background-image:url(images/sensor.jpg)"></div>
+						<div class="img-text-wrapper">
+							<div class="subtitle">
+								For half a year I had the opportunity to work in the development of optical distance sensors.
+							</div>
+						</div>
+					</div>
+					
+					<div class="portfolio-item-wrapper">
+						<div class="portfolio-img-background" style="background-image:url(images/data.jpg)"></div>
+						<div class="img-text-wrapper">
+							<div class="subtitle">
+								Artificial intelligence and big data are the topics I particularly like to engage with.
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item-wrapper">
+						<div class="portfolio-img-background" style="background-image:url(images/camouflage.jpg)"></div>
+						<div class="img-text-wrapper">
+							<div class="subtitle">
+								I completed my compulsory military service in the Swiss Air Force.
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item-wrapper">
+						<div class="portfolio-img-background" style="background-image:url(images/mountainbike.jpg)"></div>
+						<div class="img-text-wrapper">
+							<div class="subtitle">
+								During my no-screen time, I like to go out and explore the area on the mountain bike.
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>	
+		
+	
+
+		</div>
+	</body>
+	<script>
+		const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+		portfolioItems.forEach(portfolioItem => {
+			portfolioItem.addEventListener('mouseover', () => {
+				portfolioItem.childNodes[1].classList.add('img-darken');
+			})
+			portfolioItem.addEventListener('mouseout', () => {
+				portfolioItem.childNodes[1].classList.remove('img-darken');
+			})
+		})
+	</script>
 </html>
+
+
+
+
+
