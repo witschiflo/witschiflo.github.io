@@ -72,11 +72,10 @@ body {
     letter-spacing: 7px;
 }
 
-/* Portofolie styles */
+/* Personal preferences styles */
 .portfolio-items-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
 }
 
 .portfolio-item-wrapper {
@@ -120,6 +119,13 @@ body {
 .img-darken {
     transition: 1s;
     filter: brightness(10%);
+}
+
+@media screen and (max-width: 800px) {
+    .portfolio-items-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
 
 /* About page */
