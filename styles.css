@@ -125,6 +125,9 @@ body {
     .portfolio-items-wrapper {
         grid-template-columns: 1fr 1fr;
     }
+    .nav-wrapper {
+        background-color: red;
+    }
 
 }
 
