@@ -72,6 +72,8 @@ body {
     letter-spacing: 7px;
 }
 
+
+
 /* Personal preferences styles */
 .portfolio-items-wrapper {
     display: grid;
@@ -130,6 +132,9 @@ body {
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
     .portfolio-items-wrapper {
         grid-template-columns: 1fr;
+    }
+    .img-text-wrapper {
+        font-size: 2.2em;
     }
 }
 
