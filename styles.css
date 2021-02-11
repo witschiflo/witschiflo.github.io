@@ -177,15 +177,9 @@ section .title::before{
     padding-bottom: 15px;
 }
 
-/*
-.contact .contact-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}*/
-
 .contact input, 
 .contact textarea {
+    font-family: "Poppins", sans-serif;
     width: 100%;
     border-radius: 4px;
     appearance: none;
@@ -193,8 +187,7 @@ section .title::before{
     outline: 0;
     padding: 0;
     width: 100%;
-    
-
+    font-size: 18px;
 }
 
 .form-wrapper {
@@ -206,9 +199,10 @@ section .title::before{
 .two-fields-next-to-each,
 .email-field,
 .message-field {
+    
     padding-bottom: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 150px;
+    padding-left: 150px;
     margin-left: 2px;
 }
 
@@ -325,9 +319,47 @@ footer span a:hover {
     .portfolio-items-wrapper {
         grid-template-columns: 1fr 1fr;
     }
+    /* contact */
+    .two-fields-next-to-each,
+    .email-field,
+    .message-field {
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-left: 2px;
+    }
 }
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    /* Title */
+    section .title {
+        font-size: 60px;
+    }
+    section .title::before{
+        width: 450px;
+        height: 4.5px;
+    }
+    /* Navigation */
+    .nav-wrapper {
+        padding: 60px;
+        font-size: 2.5em;
+    }
+    .nav-link-wrapper {
+        height: 50px;
+    }
+    .nav-link-wrapper:hover {
+        border-bottom: 3px solid black;
+    }
+    .active-nav-link {
+        border-bottom: 3px solid black;
+    }
+
+    /* About */
+    .profile-content-wrapper {
+        font-size: 1.4em;
+    }
+
+    
     /* Personal Preferences */
     .portfolio-items-wrapper {
         grid-template-columns: 1fr;
@@ -336,9 +368,23 @@ footer span a:hover {
         height: 130%;
         font-size: 2.2em;
     }
+
+    /* Contact */
+    .contact input, 
+    .contact textarea {
+        font-size: 2.2em;
+        margin-bottom: 25px;
+    }
+    button[type="submit"] {
+        width: 450px;
+        height: 110px;
+        font-size: 2.7em;
+    }
+
     /* Footer */
     footer {
         font-size: 1.8em;
     }
+
     
 }
