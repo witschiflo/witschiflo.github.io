@@ -177,6 +177,14 @@ section .title::before{
     padding-bottom: 15px;
 }
 
+.description-contact {
+    font-size: 21px;
+    text-align: center;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-bottom: 30px;
+}
+
 .contact input, 
 .contact textarea {
     font-family: "Poppins", sans-serif;
@@ -186,7 +194,6 @@ section .title::before{
     display: block;
     outline: 0;
     padding: 0;
-    width: 100%;
     font-size: 18px;
 }
 
