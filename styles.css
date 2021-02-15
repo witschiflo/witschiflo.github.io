@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
 /* Master styles */
 body {
     font-family: "Poppins", sans-serif;
@@ -92,6 +94,70 @@ section .title::before{
     font-weight: 700;
     letter-spacing: 7px;
 }
+
+/* Home section styles */
+
+.home {
+    display: flex;
+    height: 80vh;
+    background-color: #f5f0e1;
+    color: #1e3d59;
+    min-height: 500px;
+    background-size:cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home .home-content {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.home .home-content .text-1{
+    font-size: 27px;
+    padding-bottom: 20px;
+}
+
+.home .home-content .text-2{
+    font-size: 80px;
+    font-weight: 600;
+    margin-left: -3.5px;
+    padding-bottom: 20px;
+}
+
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+    padding-bottom: 250px;
+}
+
+.home .home-content .text-3 span{
+    color: #ff6e40;
+    font-weight: 500;
+}
+
+
+
+button[type="home"] {
+    width: 300px;
+    height: 60px;
+    border: 2px solid #ff6e40;
+    background: #ff6e40;
+    color: #f5f0e1;
+    outline: none;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button[type="home"]:hover {
+    color: #ff6e40;
+    background: none;
+    opacity: 0.8;
+}
+
+
 
 
 /* Personal preferences styles */
@@ -243,9 +309,6 @@ textarea {
 }
 
 button[type="submit"] {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 200px;
     height: 50px;
     border: 2px solid #ffc13b;
@@ -322,6 +385,10 @@ footer span a:hover {
 
 /* responsive media query start */
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
+    /* Home section */
+    .home {
+        height: 50vh;
+    }
     /* Personal preferences */
     .portfolio-items-wrapper {
         grid-template-columns: 1fr 1fr;
@@ -361,6 +428,25 @@ footer span a:hover {
         border-bottom: 3px solid black;
     }
 
+     /* Home section */
+     .home {
+        height: 40vh;
+    }
+    .home .home-content .text-1{
+        font-size: 45px;
+    }
+    .home .home-content .text-2{
+        font-size: 78px;
+    }
+    .home .home-content .text-3{
+        font-size: 50px;
+    }
+    button[type="home"] {
+        width: 400px;
+        height: 80px;
+        font-size: 40px;
+    }
+
     /* About */
     .profile-content-wrapper {
         font-size: 1.4em;
@@ -395,3 +481,4 @@ footer span a:hover {
 
     
 }
+

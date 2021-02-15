@@ -1,3 +1,13 @@
+/* Typed text on frontpage */
+$(document).ready(function(){
+  var typed = new Typed(".typing", {
+    strings: ["Software Developer", "Student", "Web Designer", "Runner", "Freelancer"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+  });
+});
+
 /* No Direction to formspee.io */
 
 window.addEventListener("DOMContentLoaded", function () {
@@ -46,6 +56,7 @@ function ajax(method, url, data, success, error) {
   };
   xhr.send(data);
 }
+
 
 
 /* darkening images in personale preferences */
