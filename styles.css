@@ -425,9 +425,6 @@ footer span a:hover {
     }
 
      /* Home section */
-    .home {
-        height: 80vh;
-    }
     .home .home-content .text-1{
         font-size: 45px;
     }
