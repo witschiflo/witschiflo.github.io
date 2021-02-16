@@ -391,12 +391,19 @@ footer span a:hover {
     padding-left: 25px;
 }
 
-.global-nav__logo {
+.logo-linkedin {
     display: inline-block; 
     color: #0a66c2;
-    height: 32px;
-    width: 32px;
+    height: 34px;
+    width: 34px;
 }
+
+.logo-strava,
+.logo-github {
+    height: 34px;
+    width: 34px;
+}
+
 
 .strava-badge- { 
     display: inline-block; 
@@ -505,7 +512,13 @@ footer span a:hover {
 
     /* Footer */
     footer {
-        font-size: 1.8em;
+        font-size: 3em;
+    }
+    .logo-strava,
+    .logo-linkedin,
+    .logo-github {
+        height: 85px;
+        width: 85px;
     }
 
     
