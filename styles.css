@@ -113,7 +113,7 @@ section .title::before{
 }
 
 .home .home-content .text-1{
-    font-size: 27px;
+    font-size: 40px;
     padding-bottom: 5vh;
 }
 
@@ -368,7 +368,7 @@ button[type="submit"]:hover {
 /* Footer */
 footer {
     background: #ffc13b;
-    padding: 15px;
+    padding: 30px;
     text-align: center;
 }
 
@@ -380,6 +380,42 @@ footer span a {
 footer span a:hover {
     color: black;
     text-decoration: underline;
+}
+
+.icons-wrapper {
+    padding-bottom: 10px;
+}
+
+.icons-wrapper a {
+    text-decoration: none;
+    padding-left: 25px;
+}
+
+.global-nav__logo {
+    display: inline-block; 
+    color: #0a66c2;
+    height: 32px;
+    width: 32px;
+}
+
+.strava-badge- { 
+    display: inline-block; 
+    height: 32px; 
+}
+
+.strava-badge- img { 
+    visibility: hidden; 
+    height: 32px; 
+}
+                        
+.strava-badge-:hover { 
+    background-position: 0 -47px; 
+}
+                        
+.strava-badge-follow { 
+    height: 32px; 
+    width: 32px; 
+    background: url(//badges.strava.com/echelon-sprite-32.png) no-repeat 0 0; 
 }
 
 
@@ -474,4 +510,5 @@ footer span a:hover {
 
     
 }
+
 
