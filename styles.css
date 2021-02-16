@@ -99,7 +99,7 @@ section .title::before{
 
 .home {
     display: flex;
-    height: 600px;
+    height: 100vh;
     background-color: #f5f0e1;
     color: #1e3d59;
     min-height: 500px;
@@ -108,26 +108,26 @@ section .title::before{
 }
 
 .home .home-content {
-    margin-top: 50px;
+    margin-top: 8vh;
     margin-left: 100px;
 }
 
 .home .home-content .text-1{
     font-size: 27px;
-    padding-bottom: 20px;
+    padding-bottom: 5vh;
 }
 
 .home .home-content .text-2{
     font-size: 80px;
     font-weight: 600;
     margin-left: -3.5px;
-    padding-bottom: 20px;
+    padding-bottom: 5vh;
 }
 
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
-    padding-bottom: 250px;
+    padding-bottom: 30vh;
 }
 
 .home .home-content .text-3 span{
@@ -385,10 +385,6 @@ footer span a:hover {
 
 /* responsive media query start */
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
-    /* Home section */
-    .home {
-        height: 700px;
-    }
     /* Personal preferences */
     .portfolio-items-wrapper {
         grid-template-columns: 1fr 1fr;
@@ -429,8 +425,8 @@ footer span a:hover {
     }
 
      /* Home section */
-     .home {
-        height: 800px;
+    .home {
+        height: 80vh;
     }
     .home .home-content .text-1{
         font-size: 45px;
@@ -439,7 +435,7 @@ footer span a:hover {
         font-size: 78px;
     }
     .home .home-content .text-3{
-        font-size: 50px;
+        font-size: 60px;
     }
     button[type="home"] {
         width: 400px;
