@@ -516,17 +516,11 @@ footer span a:hover {
         font-size: 3em;
     }
     
-    .logo-github {
-        height: 70px;
-        width: 70px;
-    }
-    .logo-strava {
-        height: 70px;
-        width: 70px;
-    }
+    .logo-github,
+    .logo-strava,
     .logo-linkedin {
-        height: 70px;
-        width: 70px;
+        height: 40px;
+        width: 40px;
     }
 
     
