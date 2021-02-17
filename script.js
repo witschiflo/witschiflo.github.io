@@ -1,3 +1,8 @@
+/* Loading page */
+$(window).on("load",function(){
+  $(".loader-section").fadeOut("slow");
+});
+
 /* Typed text on frontpage */
 $(document).ready(function(){
   var typed = new Typed(".typing", {
