@@ -689,6 +689,11 @@ footer span a:hover {
     .skills-wrapper .bar:first-child {
         margin-top: 5px;
     }
+    .bar .progress-line span::before {
+        top: -14px;
+        border-top-width: 20px;
+        border-left-width: 20px;
+    }
     .bar .progress-line span::after {
         top: -50px;
         font-size: 1.6em;
