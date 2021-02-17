@@ -669,6 +669,9 @@ footer span a:hover {
     }
 
     /* Skills */
+    .skills {
+        height: 50vh;
+    }
     .skills-wrapper .bar {
         margin: 30px 0;
     }
