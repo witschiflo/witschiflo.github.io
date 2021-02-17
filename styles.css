@@ -668,6 +668,29 @@ footer span a:hover {
         display: contents;
     }
 
+    /* Skills */
+    .skills-wrapper .bar {
+        margin: 30px 0;
+    }
+    .skills-wrapper .bar .info {
+        font-size: 1.8em;
+    }
+    .skills-wrapper .bar .progress-line {
+        border-radius: 1.8em;
+        height: 1.8em;
+        
+    }
+    .bar .progress-line span {
+        border-radius: 1.8em;
+    }
+    .skills-wrapper .bar:first-child {
+        margin-top: 5px;
+    }
+    .bar .progress-line span::after {
+        top: -50px;
+        font-size: 1.6em;
+        border-radius: 6px;
+    }
     
     /* Personal Preferences */
     .portfolio-items-wrapper {
