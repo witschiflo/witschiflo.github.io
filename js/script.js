@@ -1,6 +1,6 @@
-/* Loading page */
+/* Loading screen */
 $(window).on("load",function(){
-  $(".loader-section").fadeOut("slow");
+  $(".loader-wrapper").fadeOut("slow");
 });
 
 /* Typed text on frontpage */
