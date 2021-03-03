@@ -274,7 +274,7 @@ button[type="home"]:hover {
     width: 90%;
 }
 .progress-line.c span {
-    width: 75%;
+    width: 70%;
 }
 .progress-line.python span {
     width: 40%;
@@ -283,7 +283,7 @@ button[type="home"]:hover {
     width: 80%;
 }
 .progress-line.css span {
-    width: 70%;
+    width: 60%;
 }
 .bar .progress-line span::before {
     position: absolute;
@@ -320,7 +320,7 @@ button[type="home"]:hover {
     content: "90%";
 }
 .progress-line.c span::after {
-    content: "75%";
+    content: "70%";
 }
 .progress-line.python span::after {
     content: "40%";
@@ -329,7 +329,7 @@ button[type="home"]:hover {
     content: "80%";
 }
 .progress-line.css span::after {
-    content: "70%";
+    content: "60%";
 }
 
 /* Personal preferences styles */
