@@ -274,16 +274,16 @@ button[type="home"]:hover {
     width: 90%;
 }
 .progress-line.c span {
-    width: 70%;
+    width: 50%;
 }
 .progress-line.python span {
-    width: 40%;
-}
-.progress-line.html span {
     width: 80%;
 }
-.progress-line.css span {
-    width: 60%;
+.progress-line.machineLearning span {
+    width: 70%;
+}
+.progress-line.dedication span {
+    width: 100%;
 }
 .bar .progress-line span::before {
     position: absolute;
@@ -320,16 +320,16 @@ button[type="home"]:hover {
     content: "90%";
 }
 .progress-line.c span::after {
-    content: "70%";
+    content: "50%";
 }
 .progress-line.python span::after {
-    content: "40%";
-}
-.progress-line.html span::after {
     content: "80%";
 }
-.progress-line.css span::after {
-    content: "60%";
+.progress-line.machineLearning span::after {
+    content: "70%";
+}
+.progress-line.dedication span::after {
+    content: "100%";
 }
 
 /* Personal preferences styles */
