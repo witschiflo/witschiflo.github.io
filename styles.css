@@ -273,14 +273,14 @@ button[type="home"]:hover {
 .progress-line.java span {
     width: 90%;
 }
-.progress-line.c span {
-    width: 50%;
+.progress-line.springBoot span {
+    width: 70%;
 }
 .progress-line.python span {
-    width: 80%;
+    width: 60%;
 }
 .progress-line.machineLearning span {
-    width: 70%;
+    width: 80%;
 }
 .progress-line.dedication span {
     width: 100%;
