@@ -319,14 +319,14 @@ button[type="home"]:hover {
 .progress-line.java span::after {
     content: "90%";
 }
-.progress-line.c span::after {
-    content: "50%";
+.progress-line.springBoot span::after {
+    content: "70%";
 }
 .progress-line.python span::after {
-    content: "80%";
+    content: "60%";
 }
 .progress-line.machineLearning span::after {
-    content: "70%";
+    content: "80%";
 }
 .progress-line.dedication span::after {
     content: "100%";
