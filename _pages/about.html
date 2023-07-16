@@ -6,6 +6,33 @@ last_modified_at: 2022-07-12T11:59:26-04:00
 toc: true
 ---
 
-<p>I'm Florian, a software developer, runner, food lover and cyclist.</p>
-<p style="font-style: italic;">More Informations coming soon...</p>
 
+<p>
+    Hello together <span class="wave">&#x1F44B;</span><br><br>
+    As you might have guessed, my name is Florian Witschi and I am from Switzerland.
+    This is my personal website and I am glad that you landed on it.<br><br>
+    Since my bachelor's degree in computer science, I have been working as a software developer.<br><br>
+     In my free time, I like to go for a run and spend time in nature.<br><br>
+</p>
+
+
+<style>
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   15% { transform: rotate(20.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   30% { transform: rotate(-8.0deg) }
+   45% { transform: rotate(14.0deg) }
+   60% { transform: rotate(-4.0deg) }
+   75% { transform: rotate(10.0deg) }
+   90% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+</style>
