@@ -14,7 +14,7 @@ In the meantime, 2.5 years have passed, I know what an HTML tag is and I am no l
 
 # The Golden Circle
 The Golden Circles state that the question of Why should be asked before the question of How and What. Simon explains the meaning of the rings very well in his [Ted Talk](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action).
-![Golden Circle](/assets/images/2023/01_first_article/golen_circle.jpg)
+![Golden Circle](/assets/images/2023/01_first_article/golen_circle.jpg){: .align-center}
 
 ## Why
 When asking the question of why, you have to ask yourself why you do what you do. Why do I have my own website? I would define my Why as follows:
