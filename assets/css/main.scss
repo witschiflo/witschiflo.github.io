@@ -6,7 +6,7 @@ search: false
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import "minimal-mistakes"; // main partials 
 
 .thumbnail-container {
     max-width: 100%;
@@ -15,6 +15,6 @@ search: false
     margin-bottom: 25px;
 }
 .thumbnail-container img {
-    margin-top: -13.5%;
-    margin-bottom: -13.5%;
+    margin-top: -11.5%;
+    margin-bottom: -11.5%;
 }
