@@ -6,7 +6,7 @@ tags:
   - Website
   - Personal
 last_modified_at: 2023-07-16
-excerpt: ""
+excerpt: "How it all started with an idea to get into web development and what led to the creation of a blog"
 header:
   overlay_image: /assets/images/2023/01_first_article/background_coding.jpg
   teaser: /assets/images/2023/01_first_article/background_coding.jpg
