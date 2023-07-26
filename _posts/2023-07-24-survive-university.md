@@ -5,7 +5,7 @@ categories:
 tags:
   - Advice
   - Personal
-last_modified_at: 2023-07-24
+last_modified_at: 2023-07-26
 excerpt: "Everything that can make your time at university much smoother and what you should take to heart"
 header:
   overlay_image: /assets/images/2023/02_succeed_in_university/graduation.jpg
