@@ -4,7 +4,7 @@ categories:
   - University
 tags:
   - Advice
-  - Personal
+  - Studying
 last_modified_at: 2023-07-26
 excerpt: "Everything that can make your time at university much smoother and what you should take to heart"
 header:

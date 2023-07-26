@@ -1,9 +1,9 @@
 ---
 title: "From an HTML experiment to a blog"
 categories:
-  - Projects
-tags:
   - Website
+tags:
+  - Information
   - Personal
 last_modified_at: 2023-07-16
 excerpt: "How it all started with an idea to get into web development and what led to the creation of a blog"
