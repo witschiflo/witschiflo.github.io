@@ -14,7 +14,7 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/@napr0tiv)"
 ---
 
-The time as a student is definitely a period that has shaped me. It spanned over several years and I got familiar with many new topics. But I not only learned the technical stuff, but also acquired interpersonal and analytical skills. Looking back, it was definitely an educational and pleasant time. In this post I have listed some tips that I learned during my studies. If you also want to study, these points will probably be helpful to you.
+The time as a student has definitely shaped me as an individual. The journey spanned over several years and I got familiar with many new topics. But it wasn't just about the technical stuff; I also acquired valuable interpersonal and analytical skills. Looking back, it was definitely an educational and pleasant time. In this post, I have listed some tips and insights that I have learned during my studies. If you also want to study, these points will probably be helpful to you.
 
 # Everything is temporary
 How often have you been unable to see the forest out of the trees? This will definitely happen to you during your studies. The deadline or the exam will come and then this phase is over. Of course you have to perform well in order to complete this period successfully. But if you want it and give yourself into the subject, then some things will work out, even if it doesn't look like it in the meantime. You will look back on the moments when you didn't know how everything should work out with a smile and your self-confidence will also benefit from it.
